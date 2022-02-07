@@ -1,0 +1,347 @@
+/* font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* whole navbar section  */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 97px;
+    background-color: black;
+}
+
+
+/* whole logo part */
+
+.logo {
+    display: flex;
+}
+
+
+/* bolder part of logo (MANI) */
+
+.logo h3 {
+    font-size: 43px;
+    margin: 9px 9px;
+    color: rgb(234, 0, 3);
+}
+
+
+/* styling of links in navbar */
+
+.links a {
+    padding: 0px 11px;
+    margin: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* styling of links in navbar on hovering */
+
+.links a:hover {
+    color: rgb(234, 0, 3);
+    transition: all .4s ease 0s;
+}
+
+
+/* styling of button in navbar */
+
+.links button {
+    margin: 0px 12px;
+    background-color: transparent;
+    padding: 17px 21px;
+    font-size: 16px;
+    border-radius: 32px;
+    font-weight: 500;
+    color: white;
+    border: 1.5px solid white;
+}
+
+
+/* styling of button in navbar on hovering */
+
+.links button:hover {
+    border-color: rgb(234, 0, 3);
+    background-color: rgb(234, 0, 3);
+    transition: all .5s ease 0s;
+}
+
+
+/*Main page stylinng */
+
+
+/* fixed background of main page */
+
+.mainpage::before {
+    content: ' ';
+    background-image: url(../public/bg.jpg);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+
+/* for the width and position of main page's text  */
+
+.mainpage {
+    width: 70%;
+    margin: auto;
+}
+
+
+/* styling of bold and big written text */
+
+.heading {
+    font-size: 45px;
+    margin-top: 100px;
+}
+
+
+/* small size text styling */
+
+.para {
+    margin: 33px 0px;
+    font-size: 20px;
+}
+
+
+/* button's styling */
+
+.mainpara button {
+    background: transparent;
+    border: 2px solid white;
+    padding: 46px 14px;
+    color: white;
+    border-radius: 59px;
+    font-size: 17px;
+}
+
+
+/* button's styling on hover */
+
+.mainpara button:hover {
+    background-color: rgb(234, 0, 3);
+    border-color: rgb(234, 0, 3);
+    transition: all .5s ease 0s;
+    cursor: pointer;
+}
+
+
+/* styling for service section */
+
+
+/* styling for heading 'Our Services' */
+
+#services h2 {
+    text-align: center;
+    font-size: 37px;
+    background-color: black;
+    padding: 30px;
+    border-bottom: 1.5px solid;
+}
+
+
+/* box containing all different  services box (for layout) */
+
+.servicebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* common css for all services box  */
+
+.service {
+    font-size: 21px;
+    background: #000000eb;
+    width: 282px;
+    margin: 5px;
+    padding-top: 37px;
+    border-radius: 2px;
+    text-align: center;
+    height: 189px;
+    border: 0.4px solid;
+}
+
+
+/* css for images used in service box */
+
+.service img {
+    height: 100px;
+    background-color: white;
+    width: 121px;
+}
+
+
+/* This is for button's center position */
+
+.button {
+    margin: 28px auto;
+    width: 118px;
+}
+
+
+/* css for button in services section */
+
+#btn {
+    background: transparent;
+    border: 2px solid white;
+    padding: 46px 14px;
+    color: white;
+    border-radius: 59px;
+    font-size: 17px;
+}
+
+#btn:hover {
+    background-color: rgb(234, 0, 3);
+    border-color: rgb(234, 0, 3);
+    transition: all .5s ease 0s;
+    cursor: pointer;
+}
+
+#aboutus {
+    background: whitesmoke;
+    color: black;
+    padding-bottom: 40px;
+}
+
+.infobox {
+    width: 93%;
+    margin: auto;
+}
+
+.infobox h2 {
+    padding: 30px 0px;
+    border-bottom: 2px solid grey;
+}
+
+.parabox {
+    justify-content: space-around;
+    display: flex;
+}
+
+.text {
+    width: 40%;
+}
+
+.text p {
+    margin: 61px 0px;
+}
+
+.text a {
+    text-decoration: none;
+    color: black;
+    padding: 20px 6px;
+    border-radius: 63px;
+    border: 2px solid;
+}
+
+.text a:hover {
+    color: white;
+    border-color: black;
+    background-color: black;
+    transition: all .6s ease 0s;
+}
+
+
+/* reviews section */
+
+.testimonials {
+    width: 93%;
+    margin: auto;
+}
+
+.testimonials h2 {
+    border-bottom: 2px solid;
+    font-size: 33px;
+    padding-bottom: 30px;
+}
+
+.testimonials img {
+    width: 100%;
+}
+
+.reviewbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.reviewcard {
+    width: 344px;
+    height: 263px;
+    padding: 20px;
+    border: 2px solid;
+}
+
+.reviewcard h3 {
+    color: rgb(234, 0, 3);
+    font-size: 29px;
+}
+
+
+/* contact section */
+
+#contact {
+    background-color: black;
+    margin-top: 40px;
+}
+
+.contactbox {
+    margin: auto;
+    width: 93%;
+}
+
+.adress h3 {
+    border-bottom: 1.5px solid;
+    padding: 25px 4px;
+}
+
+.adressbox {
+    display: flex;
+}
+
+.pin {
+    margin: 40px;
+}
+
+.social {
+    display: flex;
+}
+
+.fti {
+    display: flex;
+    align-items: center;
+}
+
+.fti a {
+    text-decoration: none;
+    color: white;
+}
+
+.fti a:hover {
+    text-decoration: underline;
+}
+
+.fti img {
+    height: 40px;
+}

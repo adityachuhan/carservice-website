@@ -1,0 +1,167 @@
+/* font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* whole navbar section  */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 97px;
+    background-color: black;
+}
+
+
+/* whole logo part */
+
+.logo {
+    display: flex;
+}
+
+
+/* bolder part of logo (MANI) */
+
+.logo h3 {
+    font-size: 43px;
+    margin: 9px 9px;
+    color: rgb(234, 0, 3);
+}
+
+
+/* styling of links in navbar */
+
+.links a {
+    padding: 0px 11px;
+    margin: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* styling of links in navbar on hovering */
+
+.links a:hover {
+    color: rgb(234, 0, 3);
+    transition: all .4s ease 0s;
+}
+
+
+/* styling of button in navbar */
+
+.links button {
+    margin: 0px 12px;
+    background-color: transparent;
+    padding: 17px 21px;
+    font-size: 16px;
+    border-radius: 32px;
+    font-weight: 500;
+    color: white;
+    border: 1.5px solid white;
+}
+
+
+/* styling of button in navbar on hovering */
+
+.links button:hover {
+    border-color: rgb(234, 0, 3);
+    background-color: rgb(234, 0, 3);
+    transition: all .5s ease 0s;
+}
+
+
+/* css for tips section */
+
+#tips {
+    background-color: black;
+}
+
+.box {
+    width: 93%;
+    margin: auto;
+}
+
+.box h2 {
+    font-size: 37px;
+    padding: 43px 0px;
+    border-bottom: 2px solid;
+}
+
+.tipbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tips {
+    width: 297px;
+    padding: 20px;
+    border: 2px solid;
+    margin: 20px;
+    height: 363px;
+}
+
+.tips h4 {
+    font-size: 25px;
+    color: rgb(234, 0, 3);
+}
+
+
+/* CSS for contact section */
+
+#contact {
+    background-color: black;
+    margin-top: 40px;
+}
+
+.contactbox {
+    margin: auto;
+    width: 93%;
+}
+
+.adress h3 {
+    border-bottom: 1.5px solid;
+    padding: 25px 4px;
+}
+
+.adressbox {
+    display: flex;
+}
+
+.pin {
+    margin: 40px;
+}
+
+.social {
+    display: flex;
+}
+
+.fti {
+    display: flex;
+    align-items: center;
+}
+
+.fti a {
+    text-decoration: none;
+    color: white;
+}
+
+.fti a:hover {
+    text-decoration: underline;
+}
+
+.fti img {
+    height: 40px;
+}
